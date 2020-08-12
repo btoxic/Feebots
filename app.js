@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const bot = new Discord.Client();
+const bot = new Discord.Client(NzQyOTgyODIzMzc1Mjc0MDQ0.XzOCrQ.DmU6siskvPdEF3wEhh3Clt_RbPc);
 
 require('dotenv').config();
 
@@ -29,5 +29,5 @@ bot.on('message', msg => {
   msg.channel.send(embed);
 });
 
-bot.login(process.env.BOT_TOKEN);NzQyOTgyODIzMzc1Mjc0MDQ0.XzOCrQ.DmU6siskvPdEF3wEhh3Clt_RbPc
+bot.login(process.env.BOT_TOKEN);
 
